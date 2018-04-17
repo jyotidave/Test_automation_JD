@@ -1,2 +1,10 @@
 script:
   - echo Hello world
+  - echo Goodbye !!
+  - ./testfile
+  - npm install -g protractor
+  - webdriver-manager update
+  - webdriver-mager start
+  - docker pull selenium/standalone-chrome:3.6.0-bromine
+  - docker run -d -p 127.0.0.1:4444:4444 selenium/standalone-chrome:3.6.0-bromine
+  - protractor conf.js
