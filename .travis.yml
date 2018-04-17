@@ -1,2 +1,4 @@
 script:
   - echo Hello world
+  - echo Goodbye !!
+  - ./testfile
