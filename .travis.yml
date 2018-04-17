@@ -2,3 +2,7 @@ script:
   - echo Hello world
   - echo Goodbye !!
   - ./testfile
+  - npm install -g protractor
+  - webdriver-manager update
+  - webdriver-mager start
+  - prottractor conf.js
